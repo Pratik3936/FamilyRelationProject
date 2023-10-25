@@ -33,12 +33,12 @@ public class FamilyInfo implements FamilyDao {
 		return repo.findAll();
 	}
 
-	@Override
-	public Family updateFamily(Family family) {
-		Family existingfamily = repo.getById(family.getFamilyId());
-		existingfamily.setFamilyName(family.getFamilyName());
-		return repo.save(existingfamily);
-	}
+	//@Override
+	//public Family updateFamily(Family family) {
+		//Family existingfamily = repo.getById(family.getFamilyId());
+		//existingfamily.setFamilyName(family.getFamilyName());
+		//return repo.save(existingfamily);
+	//}
 
 	@Override
 	public Family deleteFamily(int id) {
