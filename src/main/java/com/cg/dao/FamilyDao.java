@@ -10,6 +10,6 @@ public interface FamilyDao {
 	Family getFamilyById(int id);
 	List<Family>getAllFamilies();
 	Family updateFamily(Family family);
-	Family deleteFamily(Family family);
+	Family deleteFamily(int id);
 
 }
